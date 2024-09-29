@@ -1,0 +1,64 @@
+.product-container {
+  padding: 20px;
+}
+
+.product-info {
+  margin-bottom: 10px;
+}
+
+.volume,
+.skin-type {
+  display: inline-block;
+  background-color: #e8f0fe;
+  padding: 2px 6px;
+  margin: 5px 0;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.product-origin {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.product-origin .origin,
+.product-origin .benefit {
+  display: block;
+}
+
+.product-pricing {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+  margin-left: 10px;
+}
+
+.add-to-cart {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.ant-card-cover img {
+  width: 300px;
+  height: 300px;
+  border-radius: 2px 2px 0 0;
+  text-align: center;
+  margin: auto;
+}
+
+.ant-card-meta-detail > div:not(:last-child) {
+  margin-bottom: 18px;
+  font-size: 18px;
+  font-weight: bold;
+}

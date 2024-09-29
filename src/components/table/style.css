@@ -1,0 +1,62 @@
+/* style.css */
+
+.custom-table {
+  width: calc(100% - 20px);
+  margin: 0px auto 20px;
+  border: 1px solid #dedede;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  overflow: hidden;
+  box-shadow: rgba(65, 65, 65, 0.35) 0px 5px 15px;
+}
+
+.custom-table .ant-table-thead > tr {
+  background: linear-gradient(to right, #06b6d4, #3f84f8);
+}
+.custom-table .ant-table-thead > tr > th {
+  background-color: #2995fa;
+  color: #ffffff; 
+  font-weight: 600;
+  text-align: center;
+  font-size: 15px;
+}
+
+.custom-table .ant-table-tbody > tr > td {
+  text-align: center;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.custom-table .ant-table-tbody > tr:nth-child(odd) > td {
+  background-color: #ffffff; 
+}
+
+.custom-table .ant-table-tbody > tr:nth-child(even) > td {
+  background-color: #eeeeee; 
+}
+
+.custom-table .ant-table-row {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.custom-table .ant-table-row:hover > td {
+  background-color: #e6f7ff; 
+}
+
+.custom-table .ant-table-pagination-right {
+  justify-content: center;
+}
+
+.ant-table-column-sorter-inner .ant-dropdown-trigger {
+  color: #5d5e57e8;
+}
+.anticon .anticon-caret-down .ant-table-column-sorter-down{
+  color: #fff;
+}
+.ant-table-column-sorter-up.active, .ant-table-column-sorter-down.active {
+  color: #fff;
+} 
+
+.ant-table-filter-trigger.active {
+  color: #fff;
+}

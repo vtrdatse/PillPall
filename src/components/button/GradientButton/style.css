@@ -1,0 +1,33 @@
+/* GradientButton.css */
+
+.gradient-warning {
+  background: #fdde55;
+  border: none;
+  color: black;
+}
+
+.gradient-warning:hover {
+  background: #ffd35a;
+  color: black;
+}
+
+.gradient-danger {
+  background: #ff4c4c;
+  border: none;
+  color: white;
+}
+
+.gradient-danger:hover {
+  background: #ff0000;
+  color: white;
+}
+
+.gradient-primary {
+  background: linear-gradient(to right, #9933ff, #3399ff);
+  border: none;
+  color: white;
+}
+
+.gradient-primary:hover {
+  background: linear-gradient(to right, #6600ff, #0066ff);
+}

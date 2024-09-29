@@ -1,0 +1,45 @@
+.chip {
+  display: flex;
+  align-items: center;
+  padding: 0.5em 1em;
+  border-radius: 16px;
+  background-color: #f0f0f0;
+  margin: 0.5em;
+  cursor: pointer;
+  position: relative;
+  width: max-content;
+}
+
+.chip-content {
+  flex-grow: 1;
+}
+
+.chip-toggle {
+  margin-left: 1em;
+  color: rgb(254, 254, 254);
+  font-weight: bold;
+  position: absolute;
+  top: -0.3em;
+  right: -0.3em;
+  background-color: rgb(69, 188, 69);
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+div.ant-col.ant-col-16.ant-form-item-control {
+  width: 100% !important;
+}
+
+li.ant-menu-item span.label {
+  padding: 10px 0px 10px 20px;
+  line-height: 1.5;
+}
+
+li.ant-menu-item span a {
+  display: flex;
+  align-items: center;
+}
